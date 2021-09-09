@@ -1,0 +1,33 @@
+.profile {
+  width: 600px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.description {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.avatar {
+  height: 200px;
+  border-radius: 50%;
+  padding-bottom: 50px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2px;
+  background-color: white;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: lightgray;
+}
