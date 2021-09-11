@@ -1,4 +1,4 @@
-import css from './FriendsList.module.css'
+import css from './FriendList.module.css'
 import PropTypes from 'prop-types'
 
 function FriendList({ friends }) {
